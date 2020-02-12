@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Badge, Card, CardBody, CardHeader, Col, Pagination, PaginationItem, PaginationLink, Row, Table } from 'reactstrap';
 
-class Tables extends Component {
+class Balance extends Component {
   render() {
     return (
       <div className="animated fadeIn">
@@ -86,4 +86,4 @@ class Tables extends Component {
   }
 }
 
-export default Tables;
+export default Balance;

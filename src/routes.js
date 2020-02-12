@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Tables = React.lazy(() => import('./views/Base/Tables'));
+const Balance = React.lazy(() => import('./views/Pages/Balance'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
-  { path: '/base/tables', name: 'Tables', component: Tables },
+  { path: '/pages/balance', name: 'Consulta de Saldo', component: Balance },
 ];
 
 export default routes;

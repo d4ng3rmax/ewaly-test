@@ -9,8 +9,8 @@ export default {
       },
     },
     {
-      name: 'Consulta de Saldo',
-      url: '/base/tables',
+      name: 'Saldo e Extrato',
+      url: '/pages/balance',
       icon: 'icon-puzzle',
     },
   ],
