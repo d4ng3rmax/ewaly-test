@@ -10,7 +10,7 @@ export default {
     },
     {
       name: 'Saldo e Extrato',
-      url: '/pages/balance',
+      url: '/balance',
       icon: 'icon-puzzle',
     },
   ],

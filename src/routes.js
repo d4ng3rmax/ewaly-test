@@ -4,7 +4,7 @@ const Balance = React.lazy(() => import('./views/Pages/Balance'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
-  { path: '/pages/balance', name: 'Consulta de Saldo', component: Balance },
+  { path: '/balance', name: 'Consulta de Saldo', component: Balance },
 ];
 
 export default routes;
